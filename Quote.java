@@ -1,4 +1,4 @@
-import prog.io.ConsoleInputManager; // you need ConsoleInputManager.class in the directory prog/io, not my file. I'll add it later
+import prog.io.ConsoleInputManager; // you need ConsoleInputManager.class in the directory prog/io, not my file
 
 class Quote {
 
