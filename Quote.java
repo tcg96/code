@@ -40,10 +40,11 @@ class QuoteMaker {
         if (args.length==0) {
             System.err.println("Shame! Bad moves! Stop it! Disappointed in you!");
             System.out.println("\n"+
-            "While referring to the source code, most notably the two String arrays in the Quote class, \n"+
-            "you need to invoke this program with the code of the first part of the quote, and then the \n"+
-            "second part of the quote. e.g. to get 'VAPE NATION', where 'VAPE' is part 1 quote 2 and \n"+
-            "'NATION' is part 2 quote 2, you need to type in your command line: java QuoteMaker 2 2");
+            "While referring to the source code, most notably the two String arrays in the \n"+
+            "Quote class, you need to invoke this program with the code of the first part \n"+
+            "of the quote, and then the second part of the quote. e.g. to get 'VAPE NATION',\n"+
+            "where 'VAPE' is part 1 quote 2 and 'NATION' is part 2 quote 2, you need to type\n"+
+            "in your command line: java QuoteMaker 2 2");
         }
         else {
             int part1 = Integer.parseInt(args[0]); // I probably need a "try/catch" exception thing that shows the error above if you type something that throws an exception (String that can't be converted to int, too small or too big int), but I don't know how to do it
