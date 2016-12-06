@@ -21,6 +21,7 @@ Combine h3h3Productions quotes, or customize it with your own quotes.
 
 Welcome screen (no arguments):
 ![](readmeimages/Screenshot%202016-12-06%2013.03.42.png)
+
 Example quote with right arguments, and two examples with wrong arguments:
 ![](readmeimages/Screenshot%202016-12-06%2013.04.43.png)
 
