@@ -58,8 +58,6 @@ class Quote {
         "BIIIIIIIIITCH!!!"
     }; // you can always add more ;)
 
-    public Quote () {}
-
     public Quote (int part1, int part2) {
         this.part1 = part1;
         this.part2 = part2;
@@ -84,11 +82,10 @@ class QuoteMaker {
             "For this configuration, argument numbers range from 0 0 to " + --part1quotes + " " + --part2quotes + ".\n\n"+
             "You can add more Strings in the arrays of the Quote class for more quotes.\n\n");
         } else {
-            try { // the heart of the program. just 5 lines (excluding the Quote class). the rest is all error management
-                Quote quote = new Quote();
+            try { // the heart of the program. just 4 lines (excluding the Quote class). the rest is all error management
                 int part1 = Integer.parseInt(args[0]);
                 int part2 = Integer.parseInt(args[1]);
-                quote = new Quote(part1, part2);
+                Quote quote = new Quote(part1, part2);
                 System.out.println(quote.toString());
             } catch (java.lang.ArrayIndexOutOfBoundsException dumbass) {
                 System.err.println("Shame! Bad moves! Stop it! Disappointed in you!");
