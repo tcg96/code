@@ -17,10 +17,10 @@ To run them, look at the source code, note the name of the class followed by the
 ## Programs
 
 ### [FakeIt.java](https://github.com/tcg96/code/blob/master/FakeIt.java)
-This program shows you joy by putting a flower through this array.
+This program shows you joy by putting a flower through this array called disarray.
 
 ### [FakeItOO.java](https://github.com/tcg96/code/blob/master/FakeItOO.java)
-This program shows you joy by putting a Flower through this array, called disarray. Note how Flower is capitalized this time.
+This program shows you joy by putting a Flower through this array called disarray. Note how Flower is capitalized this time.
 
 ### [Quote.java](https://github.com/tcg96/code/blob/master/Quote.java)
 Combine h3h3Productions quotes, or customize it with your own quotes.
