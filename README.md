@@ -26,10 +26,10 @@ This program shows you joy by putting a Flower through this array called disarra
 Combine h3h3Productions quotes, or customize it with your own quotes.
 
 Welcome screen (no arguments):
-![](readmeimages/Screenshot%202016-12-06%2013.03.42.png)
+![](readmeimages/QMwelcome.png)
 
 Example quote with right arguments, and two examples with wrong arguments:
-![](readmeimages/Screenshot%202016-12-06%2013.04.43.png)
+![](readmeimages/QMexamples.png)
 
 The third, fourth, fifth…arguments are ignored.
 
