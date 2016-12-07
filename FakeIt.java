@@ -8,15 +8,15 @@
 
 class FakeIt { // this is very much not fake
     public static void main (String[] args) {
-    	String flowerIn = "flower"; // get the flower
-        String[] thisArray = new String[1]; // create a new array called "thisArray" with only one position (pointless, but doable)
-        thisArray[0] = flowerIn; // take the flower and put it in the array at position 0 (the only array position there is in this case)
-        String flowerOut = thisArray[0]; // then get it out of the array. what you've done: "flower" through thisArray
+    	  String flowerIn = "flower"; // get the flower
+        String[] disarray = new String[1]; // create a new array called "disarray" with only one position (pointless, but doable)
+        disarray [0] = flowerIn; // take the flower and put it in the array at position 0 (the only array position there is in this case)
+        String flowerOut = disarray[0]; // then get it out of the array. what you've done: "flower" through this array (called disarray)
     }
 }
 
-/* This program won't output anything when run. If you want, you can add 
+/* This program won't output anything when run. If you want, you can add
    the line System.out.println(flowerOut); at the end of the main method
-   to make sure the flower has been through its journey in and out of 
-   thisArray, or whatever else you want. You've got the source code right
+   to make sure the flower has been through its journey in and out of
+   disarray, or whatever else you want. You've got the source code right
    here, dude. */
