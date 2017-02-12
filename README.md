@@ -4,7 +4,7 @@ Some of my programming shit. I use Java because that's what I was taught (and am
 Now, I had three hours to spend at university with nothing to do, so here are more details.
 
 ### Install the JDK
-If you don’t know Java, you need the JDK (Java SE Development Kit) to compile and run these programs (files ending in `.java` are source code). To install it:
+If you don’t know Java, you need the JDK (Java SE Development Kit) to compile and run these programs (files ending in `.java` are source code). If you're too lazy to install the JDK, see the section "If you're too lazy". To install it:
 * On Mac, just type `javac` in the Terminal, which will prompt you to install it. If this doesn't work, google "jdk" to download the installer. If you have a Mac OS X version older than 10.7, it may already come with JDK version 6 or older, which is old, but will be fine for my extra basic programs.
 * On Linux, type `sudo apt-get install openjdk-8-jdk` in the Terminal. If this doesn’t work, try `sudo pacman -S openjdk-8-jdk`. Or replace `8` with `7`. Otherwise, you know another way to install it.
 * On Windows, google “jdk” to download the installer. You’ll also have to set the proper environment variables, [see this page](http://docs.oracle.com/javase/7/docs/webnotes/install/windows/jdk-installation-windows.html#path). An easier way to install the JDK on Windows is to install the [Chocolatey](https://chocolatey.org/) package manager (which is [useful for other stuff, too](https://chocolatey.org/packages)) and then type `choco install jdk8` in an administrator command prompt. This will automatically download, install, and set the environment variables, like on Mac and Linux.
@@ -12,6 +12,10 @@ If you don’t know Java, you need the JDK (Java SE Development Kit) to compile 
 ### Compile & run Java source code files
 To compile Java files, navigate to the folder they are in using your command prompt/terminal, then type: `javac filename.java` (replace `filename` with the real file name). Or type `javac`, a space, and then drag your `.java` file in the terminal/cmd window. Then, press Enter, of course. This will create one or more `.class` files.
 To run them, look at the source code, note the name of the class followed by the `public static void main(String[] args)` line, and run: `java ClassName` (**without** `.class` at the end, replacing `ClassName` with the real class name).
+
+### If you're too lazy
+You can run these simple Java files without JDK installed on your computer by running them online with [Ideone](http://ideone.com/). Visit that website, clear everything that appears in the text area, paste the contents of a `.java` file, make sure the programming language is set to Java (not C or anything else), and then click on the Run button.
+**Warning**: With Ideone you can't run GUI apps like `QuoteGUI.java`. You can get a pre-compiled version of QuoteGUI in a `.jar` file (see below).
 - - - -
 
 ## Programs
