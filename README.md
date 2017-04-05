@@ -16,6 +16,9 @@ To run them, look at the source code, note the name of the class followed by the
 ### If you're too lazy
 You can run these simple Java files without JDK installed on your computer by running them online with [Ideone](http://ideone.com/). Visit that website, clear everything that appears in the text area, paste the contents of a `.java` file, make sure the programming language is set to Java (not C or anything else), and then click on the Run button.
 **Warning**: With Ideone you can't run GUI apps like `QuoteGUI.java`. You can get a pre-compiled version of QuoteGUI in a `.jar` file (see below).
+
+### But what about that "sketch" folder? It has a `.pde` file, not `.java`!
+That's something written with a special integrated development environment and programming language called "Processing", which is basically a programming language for drawings. It's based on Java, which is why it's taught at my university. You'll need to download Processing at [http://processing.org](http://processing.org). Then you can just download the `.pde` file and the data folder, put them in a folder with the same name as the `.pde` file, run the `.pde` file, and click on the "play" button to run my shitty drawing.
 - - - -
 
 ## Programs
@@ -61,3 +64,6 @@ Combination of these two dank-ass memes:
 
 ### [echo.java](https://github.com/tcg96/code/blob/master/echo.java)
 Because the `echo` command built into any shell isn’t good enough.
+
+### [sketch_170405a](https://github.com/tcg96/code/blob/master/sketch_170405a)
+A very basic Processing sketch that re-creates that trailing window effect when Windows locks up. [It works like this web page](http://mrdoob.com/lab/javascript/effects/ie6/), except it's a different picture. [Error message was generated here](http://atom.smasher.org/error), the text is a quote from the video game "Grand Theft Auto: San Andreas".
