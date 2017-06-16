@@ -1,33 +1,36 @@
 # code
-Some of my programming shit. I use Java because that's what I was taught (and am still being) at university. Note: My programming skills suck. All programs here are ridiculously stupid; some on purpose.
+Some of my programming shit. I use Java because that's what I was taught at university. Note: My programming skills suck. All programs here are ridiculously stupid; some on purpose.
 
 Now, I had three hours to spend at university with nothing to do, so here are more details.
 
+### Run these programs in your web browser
+You can run `.java` (Java source code) files online with [Ideone](http://ideone.com/). Visit that website, clear everything that appears in the text area, paste the contents of a `.java` file, make sure the programming language is set to Java, and then click on the Run button.    
+**Warning**: With Ideone you can't run GUI apps like `QuoteGUI.java`. You can get a pre-compiled version of QuoteGUI in a `.jar` file (see program list below).
+
+### But what about the `.pde` files?
+Those are something written with a special integrated development environment and programming language called "Processing", which is basically a programming language for drawings, based on Java. There's also this framework called "p5.js", which is Processing for your web browser that uses JavaScript instead of Java (which are not the same, they're not even similar).    
+If you don't want to download and install Processing ([http://processing.org](http://processing.org)), I made p5.js versions of these sketches that you can run on your web browser (see program list below).
+
 ### Install the JDK
-If you don’t know Java, you need the JDK (Java SE Development Kit) to compile and run these programs (files ending in `.java` are source code). If you're too lazy to install the JDK, see the section "If you're too lazy". To install it:
+If you're not lazy, you can compile and run Java programs on your own computer. You need the JDK (Java Standard Edition Development Kit). To install it:
 * On Mac, just type `javac` in the Terminal, which will prompt you to install it. If this doesn't work, google "jdk" to download the installer. If you have a Mac OS X version older than 10.7, it may already come with JDK version 6 or older, which is old, but will be fine for my extra basic programs.
 * On Linux, type `sudo apt-get install openjdk-8-jdk` in the Terminal. If this doesn’t work, try `sudo pacman -S openjdk-8-jdk`. Or replace `8` with `7`. Otherwise, you know another way to install it.
-* On Windows, google “jdk” to download the installer. You’ll also have to set the proper environment variables, [see this page](http://docs.oracle.com/javase/7/docs/webnotes/install/windows/jdk-installation-windows.html#path). An easier way to install the JDK on Windows is to install the [Chocolatey](https://chocolatey.org/) package manager (which is [useful for other stuff, too](https://chocolatey.org/packages)) and then type `choco install jdk8` in an administrator command prompt. This will automatically download, install, and set the environment variables, like on Mac and Linux.
+* On Windows, google “jdk” to download the installer. You’ll also have to set the proper environment variables, [see this video](https://www.youtube.com/watch?v=pV1mm1m58z0). An easier way to install the JDK on Windows is to install the [Chocolatey](https://chocolatey.org/) package manager (which is [useful for other stuff, too](https://chocolatey.org/packages)) and then type `choco install jdk8` in an administrator command prompt. This will automatically download, install, and set the environment variables, like on Mac and Linux.
 
 ### Compile & run Java source code files
-To compile Java files, navigate to the folder they are in using your command prompt/terminal, then type: `javac filename.java` (replace `filename` with the real file name). Or type `javac`, a space, and then drag your `.java` file in the terminal/cmd window. Then, press Enter, of course. This will create one or more `.class` files.
+To compile `.java` files, navigate to the folder they are in using your command prompt/terminal, then type: `javac filename.java` (replace `filename` with the real file name). Or type `javac`, a space, and then drag your `.java` file in the terminal/cmd window. Then, press Enter, of course. This will create one or more `.class` files.    
 To run them, look at the source code, note the name of the class followed by the `public static void main(String[] args)` line, and run: `java ClassName` (**without** `.class` at the end, replacing `ClassName` with the real class name).
 
-### If you're too lazy
-You can run these simple Java files without JDK installed on your computer by running them online with [Ideone](http://ideone.com/). Visit that website, clear everything that appears in the text area, paste the contents of a `.java` file, make sure the programming language is set to Java (not C or anything else), and then click on the Run button.
-**Warning**: With Ideone you can't run GUI apps like `QuoteGUI.java`. You can get a pre-compiled version of QuoteGUI in a `.jar` file (see below).
 
-### But what about that "sketch" folder? It has a `.pde` file, not `.java`!
-That's something written with a special integrated development environment and programming language called "Processing", which is basically a programming language for drawings. It's based on Java, which is why it's taught at my university. You'll need to download Processing at [http://processing.org](http://processing.org). Then you can just download the `.pde` file and the data folder, put them in a folder with the same name as the `.pde` file, run the `.pde` file, and click on the "play" button to run my shitty drawing.
 - - - -
 
-## Programs
+## Java programs
 
 ### [FakeIt.java](https://github.com/tcg96/code/blob/master/FakeIt.java)
-This program shows you joy by putting a flower through this array called disarray.
+This program shows you joy by putting a flower through this array (called disarray).
 
 ### [FakeItOO.java](https://github.com/tcg96/code/blob/master/FakeItOO.java)
-This program shows you joy by putting a Flower through this array called disarray. Note how Flower is capitalized this time.
+This program shows you joy by putting a Flower through this array (called disarray). Note how Flower is capitalized this time.
 
 ### [Quote.java](https://github.com/tcg96/code/blob/master/Quote.java)
 Combine h3h3Productions quotes, or customize it with your own quotes.
@@ -65,5 +68,16 @@ Combination of these two dank-ass memes:
 ### [echo.java](https://github.com/tcg96/code/blob/master/echo.java)
 Because the `echo` command built into any shell isn’t good enough.
 
+
+
+- - - -
+
+## Processing sketches
+
 ### [sketch_170405a](https://github.com/tcg96/code/blob/master/sketch_170405a)
-A very basic Processing sketch that re-creates that trailing window effect when Windows locks up. [It works like this web page](http://mrdoob.com/lab/javascript/effects/ie6/), except it's a different picture. [Error message was generated here](http://atom.smasher.org/error), the text is a quote from the video game "Grand Theft Auto: San Andreas".
+A very basic Processing sketch that re-creates that trailing window effect when Windows locks up. [It works like this web page](http://mrdoob.com/lab/javascript/effects/ie6/), except it's a different picture. [Error message was generated here](http://atom.smasher.org/error), the text is a quote from the video game "Grand Theft Auto: San Andreas".    
+[Click here to run the p5.js version of this sketch in your web browser](http://tcg96.github.io/p5/Ass).
+
+### [Patreon logo](https://github.com/tcg96/code/blob/master/PatreonLogo)
+The new Patreon logo is so basic, I knew I could replicate it in Processing in less than 5 minutes. Eventually, I spent an hour trying to make it look as accurate as possible and adding the versions with other colors (as shown on their [guidelines page](https://www.patreon.com/brand/guidelines)), but it's not perfect.    
+[Click here to run the p5.js version of this sketch in your web browser](http://tcg96.github.io/p5/PatreonLogo).
