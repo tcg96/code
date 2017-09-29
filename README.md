@@ -76,8 +76,11 @@ Because the `echo` command built into any shell isn’t good enough.
 
 ### [sketch_170405a](https://github.com/tcg96/code/blob/master/sketch_170405a)
 A very basic Processing sketch that re-creates that trailing window effect when Windows locks up. [It works like this web page](http://mrdoob.com/lab/javascript/effects/ie6/), except it's a different picture. [Error message was generated here](http://atom.smasher.org/error), the text is a quote from the video game "Grand Theft Auto: San Andreas".    
-[Click here to run the p5.js version of this sketch in your web browser](http://tcg96.github.io/p5/Ass).
+[Click here to run the p5.js version in your web browser](http://tcg96.github.io/p5/Ass).
 
 ### [Patreon logo](https://github.com/tcg96/code/blob/master/PatreonLogo)
 The new Patreon logo is so basic, I knew I could replicate it in Processing in less than 5 minutes. Eventually, I spent an hour trying to make it look as accurate as possible and adding the versions with other colors (as shown on their [guidelines page](https://www.patreon.com/brand/guidelines)), but it's not perfect.    
-[Click here to run the p5.js version of this sketch in your web browser](http://tcg96.github.io/p5/PatreonLogo).
+[Click here to run the p5.js version in your web browser](http://tcg96.github.io/p5/PatreonLogo).
+
+### More p5.js tests
+[Clock](http://tcg96.github.io/p5/clock) and [Maze](http://tcg96.github.io/p5/maze) are slightly modified versions of some p5.js sketches by Daniel Shiffman ("[The Coding Train](http://youtube.com/user/shiffman)" on YouTube).
