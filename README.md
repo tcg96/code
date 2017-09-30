@@ -8,7 +8,7 @@ You can run `.java` (Java source code) files online with [Ideone](http://ideone.
 **Warning**: With Ideone you can't run GUI apps like `QuoteGUI.java`. You can get a pre-compiled version of QuoteGUI in a `.jar` file (see program list below).
 
 ### But what about the `.pde` files?
-Those are something written with a special integrated development environment and programming language called "Processing", which is basically a programming language for drawings, based on Java. There's also this framework called "p5.js", which is Processing for your web browser that uses JavaScript instead of Java (which are not the same, they're not even similar).    
+Those are something written with a special integrated development environment and programming language called "Processing", which is basically a programming language for visual art (even though I'm not an artist), based on Java. There's also this framework called "p5.js", which is Processing for your web browser that uses JavaScript instead of Java (which are not the same, they're not even similar).    
 If you don't want to download and install Processing ([http://processing.org](http://processing.org)), I made p5.js versions of these sketches that you can run on your web browser (see program list below).
 
 ### Install the JDK
@@ -75,12 +75,10 @@ Because the `echo` command built into any shell isn’t good enough.
 ## Processing sketches
 
 ### [sketch_170405a](https://github.com/tcg96/code/blob/master/sketch_170405a)
-A very basic Processing sketch that re-creates that trailing window effect when Windows locks up. [It works like this web page](http://mrdoob.com/lab/javascript/effects/ie6/), except it's a different picture. [Error message was generated here](http://atom.smasher.org/error), the text is a quote from the video game "Grand Theft Auto: San Andreas".    
-[Click here to run the p5.js version in your web browser](http://tcg96.github.io/p5/Ass).
+A very basic Processing sketch that re-creates that trailing window effect when Windows locks up. [It works like this web page](http://mrdoob.com/lab/javascript/effects/ie6/), except it's a different picture. [Error message was generated here](http://atom.smasher.org/error), the text is a quote from the video game "Grand Theft Auto: San Andreas".
 
 ### [Patreon logo](https://github.com/tcg96/code/blob/master/PatreonLogo)
-The new Patreon logo is so basic, I knew I could replicate it in Processing in less than 5 minutes. Eventually, I spent an hour trying to make it look as accurate as possible and adding the versions with other colors (as shown on their [guidelines page](https://www.patreon.com/brand/guidelines)), but it's not perfect.    
-[Click here to run the p5.js version in your web browser](http://tcg96.github.io/p5/PatreonLogo).
+The new Patreon logo is so basic, I knew I could replicate it in Processing in less than 5 minutes. Eventually, I spent an hour trying to make it look as accurate as possible and adding the versions with other colors (as shown on their [guidelines page](https://www.patreon.com/brand/guidelines)), but it's not perfect.
 
-### More p5.js tests
-[Clock](http://tcg96.github.io/p5/clock) and [Maze](http://tcg96.github.io/p5/maze) are slightly modified versions of some p5.js sketches by Daniel Shiffman ("[The Coding Train](http://youtube.com/user/shiffman)" on YouTube).
+### [p5.js tests](http://tcg96.github.io/p5/)
+[Click here to run the two above Processing sketches in your web browser using p5.js. There are also more p5.js tests](http://tcg96.github.io/p5/).
